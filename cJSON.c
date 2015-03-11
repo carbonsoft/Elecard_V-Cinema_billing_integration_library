@@ -31,6 +31,7 @@
 #include <limits.h>
 #include <ctype.h>
 #include "cJSON.h"
+#include <pthread.h>
 
 static const char *ep;
 

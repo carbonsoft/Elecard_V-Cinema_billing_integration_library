@@ -33,4 +33,5 @@ clean:
 	[ -f test ] && rm test || true
 
 tests:
-	cc -fPIC -I./ $(glib-cflags) $(glib-libflags) -g -O0 -o test test.c -lm
+	python test_/test.py
+#	cc -fPIC -I./ $(glib-cflags) $(glib-libflags) -g -O0 -o test test.c -lm

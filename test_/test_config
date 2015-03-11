@@ -1,5 +1,0 @@
-[billing]
-active=false
-log_file=/var/log/xworks-billing-stub.log
-billing_ip=127.0.0.1
-billing_psw=123
